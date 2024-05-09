@@ -1,0 +1,43 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+.logo-container {
+    font-size: 25px;
+    font-family: fantasy;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: azure;
+    text-decoration: wavy;
+}
+
+.navigation-container {
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 35px;
+    border-radius: 10%;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.main-content {
+    display: flex;
+}
+article>.main-content>.header-content {
+    text-align: center;
+}
+
+article>.main-content>.header-content>h1 {
+    font-size: 50px;
+}
+article>.main-content>.header-content>h3 {
+    font-size: 30px;
+    font-style: italic;
+}
